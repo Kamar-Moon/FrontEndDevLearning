@@ -1,0 +1,37 @@
+/* Before Mixin
+    #square {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+  }
+  
+  #rect-a {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+  }
+  
+  #rect-b {
+    width: 50px;
+    height: 100px;
+    background-color: orange;
+  }*/
+
+  //After Mixin
+  @mixin shape($w, $h, $bg-color)
+{
+  width: $w;
+  height: $h;
+  background-color: $bg-color;
+}
+#square {
+  @include shape(50px,50px,red);
+}
+
+#rect-a {
+ @include shape(100px, 50px, blue);
+}
+
+#rect-b {
+  @include shape(50px,100px,orange);
+}

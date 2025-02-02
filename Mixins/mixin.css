@@ -1,0 +1,37 @@
+/* Before Mixin
+    #square {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+  }
+
+  #rect-a {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+  }
+
+  #rect-b {
+    width: 50px;
+    height: 100px;
+    background-color: orange;
+  }*/
+#square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+#rect-a {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+}
+
+#rect-b {
+  width: 50px;
+  height: 100px;
+  background-color: orange;
+}
+
+/*# sourceMappingURL=mixin.css.map */
