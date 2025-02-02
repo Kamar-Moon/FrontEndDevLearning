@@ -1,0 +1,10 @@
+.blog-post { // these CSS rules are now nested within their parent div -> in the same order they appear in the HTML doc
+    h1 {
+    text-align: center;
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  }
