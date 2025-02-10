@@ -1,0 +1,14 @@
+//Sass has a feature called extend that makes it easy to borrow 
+//the CSS rules from one element and build upon them in another.
+h3{
+    text-align: center;
+  }
+  .info{
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+.info-important{
+  @extend .info;
+  background-color: magenta;
+}
