@@ -30,6 +30,7 @@ export default function RandomColor() {
         setColor(`rgb(${r}, ${g}, ${b})`);
     }
 
+    {/* This will update the h3 and h1 elements to reflect the right text when the create hex or rgb color buttons are clicked */}
     useEffect(() => {
         if (typeOfColor === "rgb") handleCreateRandomRgbColour();
         else handleCreateRandomHexColour();
@@ -63,7 +64,7 @@ export default function RandomColor() {
                 gap: '20px'
 
             }}>
-                <h3>{typeOfColor === 'rgb' ? 'RGB Color ' : 'HEX Color '} </h3>
+                <h1>{typeOfColor === 'rgb' ? 'RGB Color ' : 'HEX Color '} </h1>
                 <h1>{color}</h1>
 
             </div>
